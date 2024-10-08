@@ -9,54 +9,65 @@
     
 </head>
 <body>
-    <section class="card-1">
-        <div class="w-10/12 m-auto mt-24 border">
-            <h1 class="text-4xl font-bold py-6 px-4">Big Card</h1>
-            <div class="border border-black w-8/12 grid grid-cols-4">
-                <div class="md:col-span-1 col-span-4">
-                    <img src="src/img/asdf.webp" alt="">
+    <div class="w-10/12 m-auto flex items-start border">
+        <div class="w-1/4">
+            <img class="max-w-full min-w-[75%]" src="https://api.sharetrip.net/api/v1/hotel/image?key=HyANbffVjkBh1mA2CJLuNFZlI6UkKrgAbXWPt8bqt5XudxSGJg/auh/IeYO9o63FWll2h/tvGridd5Ar9ZmNcPv7mIFFjODaLqNf2Elv+C0Sm8D1Ed7d5OB4CpkcgIUbSBwuIj80YfSUZ7hf/QDIzA== " alt="">
+        </div>
+        <div class="w-3/4 px-4 py-3 flex">
+            <div class="w-2/3 flex items-start justify-start flex-col gap-2">
+                <div>
+                    <a class="cursor-pointer text-2xl font-medium" href="#">Hotel Castle Salam</a>
                 </div>
-                <div class="lg:col-span-3 col-span-4 grid grid-cols-4">
-                    <div class="md:col-span-2 col-span-4 p-2 flex justify-center gap-3 flex-col">
-                        <h1 class="text-2xl font-bold">Everest Hotel</h1>
-                        <div class="flex items-center gap-1">
-                            <i class="fa-solid fa-star text-[#FAA320] cursor-auto"></i>
-                            <i class="fa-solid fa-star text-[#FAA320] cursor-auto"></i>
-                            <i class="fa-solid fa-star text-[#FAA320] cursor-auto"></i>
-                            <i class="fa-solid fa-star text-[#FAA320] cursor-auto"></i>
-                            <i class="fa-solid fa-star text-[#FAA320] cursor-auto"></i>
-                            <div class="bg-[#40A642] hover:bg-[#51c553] cursor-pointer duration-200 text-white flex items-center gap-2 px-2 rounded-xl ml-4">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>6.3</p>
-                            </div>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <i class="fa-solid fa-location-dot text-[#00A0BA]"></i>
-                            <p>Full Address Here</p>
-                        </div>
-                        <div class="w-1/5 flex items-center gap-2">
-                            <img src="src/img/banner.jpg" alt="">
-                            <img src="src/img/banner.jpg" alt="">
-                            <img src="src/img/banner.jpg" alt="">
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <img class="w-5" src="src/img/token.png" alt="">
-                            <p>0</p>
-                            <img class="w-5 ml-3" src="src/img/share-icon-512.png" alt="">
-                            <p>50</p>
-                        </div>
+                <div>
+                    <i class="fa-solid fa-star text-[#f9a825]"></i>
+                    <i class="fa-solid fa-star text-[#f9a825]"></i>
+                    <i class="fa-solid fa-star text-[#f9a825]"></i>
+                    <i class="fa-solid fa-star text-[#f9a825]"></i>
+                    <i class="fa-solid fa-star text-[#f9a825]"></i>
+                </div>
+                <div class="flex items-center gap-2">
+                    <div>
+                        <i class="fa-solid fa-location-dot text-[#00a0c4] text-2xl"></i>
                     </div>
-                    <div class="md:col-span-2 col-span-4 p-2 flex flex-col items-end justify-end gap-3">
-                        <p class="font-bold text-[#3E4957]">Starts from</p>
-                        <p><del>BDT 9999</del><span class="font-light text-xs">/night</span></p>
-                        <p><span class="text-orange-400 font-bold">10% OFF</span><span class="font-bold"> BDT<span> 10.350</span></span><span class="font-light text-xs">/night</span></p>
-                        <p></p>
-                        <button class="bg-[#1A81FF] hover:bg-[#4b99f8] text-white font-semibold py-2 px-5 rounded-md">BOOK NOW</button>
+                    <div>
+                        <p class="text-sm font-medium">Hotel Castle Salam G-8, K.D.A. Avenue, Khulna-9000, Bangladesh </p>
                     </div>
+                </div>
+                <div>
+                    <ul class="flex items-center gap-4">
+                        <li class="flex items-center gap-2">
+                            <img class="w-6" src="https://cdn.sharetrip.net/sharetrip_net/production/public/images/icons/tripCoin.png" alt="">
+                            <span>0</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <img class="w-6" src="https://cdn.sharetrip.net/sharetrip_net/production/public/images/icons/tripCoinShare.png" alt="">
+                            <span>0</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <div class="w-1/3 flex flex-col items-end justify-end gap-1">
+                <div>
+                    <small>Starts from</small>
+                </div>
+                <div>
+                    <p><del>BDT 6,857</del><span> /Night</span></p>
+                </div>
+                <div class="flex">
+                    <img src="https://cdn.sharetrip.net/sharetrip_net/production/public/images/icons/new/discount-mono.svg" alt="">
+                    <p class="text-base">
+                        <span class="text-[#f73] text-xs font-bold">17% OFF</span>
+                        <span class="font-bold">BDT 5,677</span>
+                        <small class="text-[10px]"> /Night</small>
+                    </p>
+                </div>
+                <div>
+                    <p class="text-sm">*Price includes VAT & Tax</p>
+                </div>
+                <button class="py-2 px-6 text-sm font-bold bg-[#1882ff] text-white border border-[#1882ff] uppercase shadow-md rounded-md">Book Now</button>
+            </div>
         </div>
-    </section>
+    </div>
     <section>
         <div class="w-11/12 m-auto flex items-centerh justify-between flex-col sm:flex-row gap-5">
             <div class="lg:w-1/3 md:w-6/12 w-full mt-5 mb-5 h-[168px] rounded-xl overflow-hidden">
