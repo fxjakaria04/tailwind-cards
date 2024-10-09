@@ -2,7 +2,11 @@
 module.exports = {
   content: ['card.html'],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '576px',
+      }
+    },
   },
   plugins: [],
 }
